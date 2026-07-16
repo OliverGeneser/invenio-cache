@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2017-2018 CERN.
 # SPDX-FileCopyrightText: 2024-2026 Graz University of Technology.
+# SPDX-FileCopyrightText: 2026 TU Wien.
 # SPDX-License-Identifier: MIT
 
 """Cache module for Invenio.
@@ -73,7 +74,7 @@ from .decorators import cached_unless_authenticated
 from .ext import InvenioCache
 from .proxies import current_cache, current_cache_ext
 
-__version__ = "3.0.0"
+__version__ = "3.0.1"
 
 __all__ = (
     "__version__",
